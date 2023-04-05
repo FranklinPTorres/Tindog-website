@@ -1,0 +1,154 @@
+body{
+    font-family: 'Montserrat' 'san-serif';
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+.titleText{
+ font-family: 'Montserrat' 'san-serif';
+ color: rgb(255, 255, 255);
+ font-size: 3rem;
+ line-height: 1.5;
+ margin:90px;
+}
+
+.container-fluid{
+    padding: 3% 65% 7%;
+}
+
+.navbar-brand{
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+/* Title image */
+
+.title-image{
+    width: 5    0%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+   
+}
+
+/* Feature Section  */
+
+#features {
+    padding: 7% 15%;
+    background-color: aliceblue;
+    position:relative
+    
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.text-f {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p{
+    color: #8f8f8f
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial */
+
+#testimonials {
+
+text-align: center;
+background-color: #ef8172;
+color: white;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 20px;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.card-group{
+    text-align: center;
+    padding: 5% 15%;
+}
+
+#pricing{
+    text-align: center;
+    padding-top: 5%;
+}
+
+@media (max-width: 1080px){
+   
+    #title{
+        text-align: center;
+    }
+   
+    .title-image{
+    position: static;
+    transform: rotate(0);
+    padding-top: 10%
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 40px 50px  ;
+}
+
+.text-final{
+    font-family: 'Montserrat' 'san-serif';
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    line-height: 1.5;
+    margin:50px;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 20px ;
+}
+
+.social-media{
+    font-size: 16pt;
+    margin: 20px 15px;
+}
